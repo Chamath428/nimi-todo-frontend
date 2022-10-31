@@ -4,7 +4,7 @@ import { BsFillPencilFill } from "react-icons/bs";
 import { Link } from 'react-router-dom'
 import '../styles/sidebar.css'
 
-const Header = () => {
+const Sidebar = () => {
 
     const [active,setActive] = useState(false)
 
@@ -32,7 +32,7 @@ const Header = () => {
 
                 <li>
                     <BsFillPencilFill className='icon'/>
-                    <Link to='/'>Create To Do</Link>
+                    <Link to='/create'>Create To Do</Link>
                 </li>
 
 
@@ -44,4 +44,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Sidebar
