@@ -1,0 +1,11 @@
+.main-container{
+    /* background-color: red; */
+    width: 85%;
+    margin: 80px auto;
+}
+
+.middle-container{
+    max-height: 80vh;
+    overflow-y: scroll;
+
+}
